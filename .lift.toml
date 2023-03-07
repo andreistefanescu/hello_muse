@@ -1,0 +1,5 @@
+setup = ".lift/setup.sh"
+build = "make"
+tools = []
+customTools = [ ".lift/hello-lift.sh" ]
+
