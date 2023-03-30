@@ -46,6 +46,9 @@ function run() {
     echo "]"
 }
 
+echo "foo: $@"
+echo $(python3 --version)
+
 case "$3" in
     run)
         run
