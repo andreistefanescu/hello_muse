@@ -1,0 +1,4 @@
+[[tasks]]
+saw-script = 'solution.saw'
+args = ['-v', 'debug']
+
