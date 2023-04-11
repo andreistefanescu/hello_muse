@@ -7,7 +7,6 @@
 import "SHA512.cry";
 
 include "../common/helpers.saw";
-//include "helpers.saw";
 
 
 // Load LLVM bytecode

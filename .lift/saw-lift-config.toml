@@ -1,4 +1,44 @@
 [[tasks]]
-saw-script = 'solution.saw'
+saw-script = 'memory-safety/popcount/solution/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'memory-safety/swap/solution/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'memory-safety/u128/solution/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'memory-safety/point/solution/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'memory-safety/salsa20/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'functional-correctness/popcount/solution/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'functional-correctness/swap/solution/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'functional-correctness/u128/solution/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'functional-correctness/point/solution/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'functional-correctness/salsa20/solution.saw'
+args = ['-v', 'debug']
+
+[[tasks]]
+saw-script = 'sha512/solution.saw'
 args = ['-v', 'debug']
 

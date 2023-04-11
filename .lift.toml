@@ -1,5 +1,5 @@
 setup = ".lift/setup.sh"
-build = "make"
+build = "CLANG=clang-12 make"
 tools = []
 customTools = [ ".lift/saw-lift.sh" ]
 

@@ -1,7 +1,12 @@
+.SUFFIXES: .c .bc
 .PHONY: all
 
-all: sha512.bc
+CLANG ?= clang 
+C_FILES = $(shell find . -name '*.c')
+BC_FILES = $(patsubst %.c, %.bc, $(C_FILES))
+
+all: $(BC_FILES)
 
 %.bc : %.c
-	clang-12 -g -c -emit-llvm $< -o $@
+	$(CLANG) -g -O0 -c -emit-llvm $< -o $@
 
